@@ -24,6 +24,10 @@
   padding:10px 20px ;
 }
 
+.search input{
+  font-size: 14px;
+}
+
 
 
 .button{
@@ -55,7 +59,7 @@ input{
   position: absolute;
   display: flex;
   align-items: center;
-  float: left;
+ 
 }
 
 ul{
@@ -75,7 +79,7 @@ ul{
 }
 
 .dropdown_dir{
-  position: relative;
+  
   display: inline-block;
 }
 
@@ -115,9 +119,13 @@ ul{
     float: left;
     
     width: 30vw;
-    margin-left: 180px;
+    margin-left: 80px;
     margin-top: 50px;
     word-break: break-word;
+  }
+
+  .image img{
+    padding-right: 30px;
   }
   .buttons .browse{
     margin: 15px 0.5px;
@@ -164,7 +172,7 @@ ul{
     background-color: rgb(117, 79, 254);
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
   }
 
   .second_section{
@@ -224,7 +232,7 @@ ul{
   
   .image_icon{
     float: left;
-    margin: 1px 1px;
+    margin-top: 20px;
     background-color: rgb(255, 238, 218);
     box-sizing: border-box;
     border-radius: 50%;
@@ -234,20 +242,60 @@ ul{
     color:rgb(194, 129, 53);
   }
   
-  .image{
-    display: flex;
-    align-items: center;
-  }
+  
 
   .card_section{
+    background-color: rgb(245, 244, 248);
     
     padding-top:80px ;
-    padding-left: 100px;
+    padding-left: 180px;
     padding-right: 10px;
   }
 
   .cards{
     display: flex;
   }
+
+  .card{
+    margin-right: 10px;
+    border: 1px solid #ccc;
+
+    border-radius: 10px;
+  }
+
+  .card img{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+ 
+
+ 
+  
+
+  .two{
+    margin: 0 10px;
+
+  }
+
+  .dropdown_content{
+    display:none;
+  }
+
+  .heading h2{
+    /* padding-left: 10px; */
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    color: rgb(24, 17, 60);
+  }
+
+  .second_part{
+    margin-top: 30px;
+    padding-top: 10px;
+  }
+
+
 
 
