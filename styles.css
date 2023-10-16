@@ -35,7 +35,7 @@
 }
 
 .button button{
-  padding: 10px;
+  padding: 15px;
  border-radius: 5px;
  
  background-color: white;
@@ -56,7 +56,7 @@ input{
 }
 
 .left_container{
-  position: absolute;
+  
   display: flex;
   align-items: center;
  
@@ -116,12 +116,13 @@ ul{
   
 
   .elements{
-    float: left;
+   
     
     width: 30vw;
-    margin-left: 80px;
-    margin-top: 50px;
-    word-break: break-word;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+   
   }
 
   .image img{
@@ -191,6 +192,7 @@ ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     /* position: relative; */
     
     /* align-items: center;
@@ -247,18 +249,26 @@ ul{
   .card_section{
     background-color: rgb(245, 244, 248);
     
-    padding-top:80px ;
-    padding-left: 180px;
-    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* margin: 30px auto; */
+  }
+
+  .all_cards{
+    margin: 60px auto;
   }
 
   .cards{
     display: flex;
+    flex-wrap: wrap;
   }
 
   .card{
     margin-right: 10px;
     border: 1px solid #ccc;
+    max-width: 268px;
 
     border-radius: 10px;
   }
@@ -285,6 +295,7 @@ ul{
 
   .heading h2{
     /* padding-left: 10px; */
+    padding-bottom: 20px;
     font-size: 24px;
     font-weight: 500;
     line-height: 33.6px;
@@ -296,6 +307,57 @@ ul{
     padding-top: 10px;
   }
 
+  .third_part{
+    margin-top: 30px;
+    padding-top: 10px;
+  }
 
 
+  @media screen and (max-width:989px) {
+    .first-section{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }
 
+  @media screen and (max-width:629px) {
+    .first-section img{
+      width:60%;
+      padding-left: 25px;
+    }
+    
+  }
+
+  .desc{
+    padding: 10px;
+    
+  }
+
+  .desc h4{
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .footer{
+    color:rgb(92, 87, 118);
+    padding: 20px;
+  }
+
+  @media screen and (max-width:768px) {
+    .one img{
+      width:350px;
+      height: 200px;
+      
+
+    }
+    .card{
+      
+      max-width: 700px;
+    }
+    .cards{
+      justify-content: space-between;
+    }
+  }
+  
