@@ -346,6 +346,9 @@ ul{
   }
 
   @media screen and (max-width:768px) {
+      .desc{
+      max-height: 86.5px;
+    }
     .one img{
       width:350px;
       height: 200px;
