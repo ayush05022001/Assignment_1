@@ -80,6 +80,7 @@ align-items: center;
 ul{
 display: flex;
 list-style: none;
+margin-bottom: 0;
 }
 
 
@@ -106,8 +107,31 @@ padding: 10px;
 background-color: white;
 
 }
+.dropdown_nested{
+  display: none;
+  position: absolute;
+  background-color: white;
+  left:100%;
+}
+.dropdown_nested2{
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  left:100%;
+}
+.dropdown_content li:hover .dropdown_nested{
+  display: block;
+  top:5px;
+  margin: 10px 0;
+}
+.dropdown_content li:hover .dropdown_nested2{
+  display: block;
+  top:10px;
+  margin: 20px 0;
+}
 
-.dropdown_dir:hover .dropdown_content{
+.first_dir:hover .dropdown_content{
 transition: display 4s 1s;
 
 display: block;
@@ -120,6 +144,7 @@ display: block;
 
 .dropdown_dir:hover{
 color: rgb(117, 79, 254);
+cursor: pointer;
 
 }
 
@@ -149,6 +174,7 @@ margin: 20px 0;
 
 .image img{
   padding-right: 30px;
+  cursor: pointer;
 }
 .buttons .browse{
   margin: 15px 0.5px;
@@ -418,3 +444,21 @@ margin: 20px 0;
     display: none;
   }
 }
+
+
+/* .middle_region {
+  display: flex;
+  justify-content: space-between;
+} */
+
+form{
+  display: flex;
+
+}
+input[type="checkbox"]{
+  margin: 0 10px;
+}
+.middle_region .all_cards{
+  display: flex;
+}
+
