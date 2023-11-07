@@ -381,6 +381,20 @@ margin: 20px 0;
   
 }
 
+@media screen and (max-width:563px){
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+  }
+  .para{
+    max-width: 200px;
+  }
+  .heading-content{
+    max-width: 200px;
+  }
+}
+
 .desc{
   padding: 10px;
   
@@ -401,7 +415,7 @@ margin: 20px 0;
   padding: 20px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:990px) {
     .desc{
     max-height: 86.5px;
   }
@@ -458,7 +472,12 @@ form{
 input[type="checkbox"]{
   margin: 0 10px;
 }
+
+.middle_region{
+  margin: 10px 50px;
+
+
+}
 .middle_region .all_cards{
   display: flex;
 }
-
