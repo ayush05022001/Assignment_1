@@ -123,12 +123,18 @@ background-color: white;
 .dropdown_content li:hover .dropdown_nested{
   display: block;
   top:5px;
+  
+  color: blue;
+  
   margin: 10px 0;
 }
 .dropdown_content li:hover .dropdown_nested2{
   display: block;
   top:10px;
   margin: 20px 0;
+}
+.dropdown_content li:hover{
+  color: rgb(117, 79, 254);
 }
 
 .first_dir:hover .dropdown_content{
