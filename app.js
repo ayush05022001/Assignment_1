@@ -354,13 +354,3 @@ document.querySelector('.second_part .cards').innerHTML=htmlcode_two;
 
 
 
-
-
-
-
-
-
-
-
-
-
